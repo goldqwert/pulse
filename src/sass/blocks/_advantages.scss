@@ -1,4 +1,4 @@
-.advantures {
+.advantages {
   min-height: 473px;
   padding: 70px 0 65px 0;
   background: #ffffff;
@@ -33,5 +33,10 @@
     font-size: 14px;
     line-height: 18px;
     text-align: center;
+    a {
+        color: #ff0000;
+        text-decoration: underline;
+    }
   }
+  
 }
