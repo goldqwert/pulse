@@ -1,0 +1,37 @@
+.advantures {
+  min-height: 473px;
+  padding: 70px 0 65px 0;
+  background: #ffffff;
+  &__header {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #0d0d0d;
+  }
+  &__wrapper {
+    margin-top: 65px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 277px;
+  }
+  &__item-title {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0d0d0d;
+  }
+  &__item-descr {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
